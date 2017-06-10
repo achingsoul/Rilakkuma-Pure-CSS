@@ -1,0 +1,218 @@
+body{
+  background-color: #FFE8A2;
+}
+.wrapper{
+  width: 50%;
+  height: 100%;
+  background-color: #FFE8A2;
+  position: relative;
+  margin: 0 auto;
+}
+
+/* rilakkuma */
+
+.rilakkuma{
+  position: relative;
+  top: 150px;
+}
+.rilakkuma .ear.outer{
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  background-color: #D78925;
+  overflow: hidden;
+  border: 7px solid #53231F;
+  border-radius: 50%;
+}
+.rilakkuma .ear.inner {
+  position: absolute;
+  border: 7px solid #53231F;
+  width: 90px;
+  top: 30px;
+  left: -20px;
+  height: 90px;
+  z-index: 1;
+  background-color: #FBC92A;
+  border-radius: 50%;
+}
+.rilakkuma .ear.outer.right{
+  left: 250px;
+}
+.rilakkuma .ear.inner.right{
+  left: 20px;
+}
+.rilakkuma .head{
+  position: absolute;
+  border: 7px solid #53231F;
+  width: 300px;
+  height: 250px;
+  top: 25px;
+  left: 25px;
+  border-top-right-radius: 100%;
+  border-top-left-radius: 100%;
+  border-bottom-right-radius: 85%;
+  border-bottom-left-radius: 85%;
+  background-color: #D78925;
+  z-index: 2;
+}
+.rilakkuma .eye{
+  position: absolute;
+  width: 35px;
+  height: 35px;
+  background-color: #53231F;
+  top: 170px;
+  left: 90px;
+  z-index: 3;
+  border-radius: 50%;
+}
+.rilakkuma .eye.right{
+  left: 235px;
+}
+.rilakkuma .muzzle{
+  position: absolute;
+  width: 100px;
+  height: 70px;
+  background-color: #fff;
+  border-top-right-radius: 100%;
+  border-top-left-radius: 100%;
+  border-bottom-right-radius: 85%;
+  border-bottom-left-radius: 85%;
+  top: 175px;
+  left: 130px;
+  z-index: 3;
+}
+.rilakkuma .nose{
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  top: 190px;
+  z-index: 4;
+  left: 170px;
+  background-color: #53231F;
+  border-radius: 50%;
+}
+.rilakkuma .mouth{
+  z-index: 4;
+  width: 20px;
+  height: 20px;
+  top: 200px;
+  border-bottom: 10px solid #53231F;
+}
+.rilakkuma .mouth.left{
+  position: absolute;
+  border-bottom-right-radius: 100%;
+  border-right: 10px solid #53231F;
+  left: 155px;
+}
+.rilakkuma .mouth.right{
+  position: absolute;
+  border-left: 10px solid #53231F;
+  border-bottom-left-radius: 100%;
+  left: 175px;
+}
+/* end rilakkuma */
+
+
+/* korilakkuma */
+
+.korilakkuma{
+  position: relative;
+  top: 175px;
+  left: 390px;
+}
+.korilakkuma .ear.outer{
+  position: absolute;
+  width: 90px;
+  height: 90px;
+  background-color: #FDE4BC;
+  overflow: hidden;
+  border: 7px solid #53231F;
+  border-radius: 50%;
+}
+.korilakkuma .ear.inner{
+  position: absolute;
+  border: 7px solid #53231F;
+  width: 81px;
+  top: 30px;
+  left: -20px;
+  height: 81px;
+  z-index: 1;
+  background-color: #E8999E;
+  border-radius: 50%;
+}
+.korilakkuma .ear.outer.right{
+  left: 230px;
+}
+.korilakkuma .ear.inner.right{
+  left: 20px;
+}
+.korilakkuma .head{
+  position: absolute;
+  border: 7px solid #53231F;
+  width: 270px;
+  height: 225px;
+  top: 25px;
+  left: 25px;
+  border-top-right-radius: 100%;
+  border-top-left-radius: 100%;
+  border-bottom-right-radius: 85%;
+  border-bottom-left-radius: 85%;
+  background-color: #FDE4BC;
+  z-index: 2;
+}
+.korilakkuma .eye{
+  position: absolute;
+  width: 31.5px;
+  height: 31.5px;
+  background-color: #53231F;
+  top: 150px;
+  left: 80px;
+  z-index: 3;
+  border-radius: 50%;
+}
+.korilakkuma .eye.right{
+  left: 220px;
+}
+.korilakkuma .muzzle{
+  position: absolute;
+  width: 90px;
+  height: 63px;
+  background-color: #fff;
+  border-top-right-radius: 100%;
+  border-top-left-radius: 100%;
+  border-bottom-right-radius: 85%;
+  border-bottom-left-radius: 85%;
+  top: 160px;
+  left: 120px;
+  z-index: 3;
+}
+.korilakkuma .nose{
+  position: absolute;
+  width: 18px;
+  height: 18px;
+  top: 175px;
+  z-index: 4;
+  left: 155px;
+  background-color: #53231F;
+  border-radius: 50%;
+}
+.korilakkuma .mouth{
+  z-index: 4;
+  width: 15px;
+  height: 15px;
+  top: 185px;
+  border-bottom: 9px solid #53231F;
+}
+.korilakkuma .mouth.left{
+  position: absolute;
+  border-bottom-right-radius: 100%;
+  border-right: 9px solid #53231F;
+  left: 145px;
+}
+.korilakkuma .mouth.right{
+  position: absolute;
+  border-left: 9px solid #53231F;
+  border-bottom-left-radius: 100%;
+  left: 159px;
+}
+/* end korilakkuma*/
